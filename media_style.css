@@ -1,0 +1,103 @@
+
+/*768 px  */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .aboutContaint a {
+    align-items: center;
+  }
+
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    background-color: maroon;
+    width: 100%;
+  }
+  .skillsContaint {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  
+
+    .projectContaint {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .experienceContaint {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+
+  .Education {
+    flex-direction: column;
+    align-items: center;
+  }
+  .table {
+    overflow-x: auto;
+  }
+}
+
+/* 600px mobile */
+@media  (max-width:600px) {
+  .header{
+    width: vw;
+  }
+  .aboutImg img{
+    border-radius: 100px;
+  }
+  .aboutme, .swEngineer{
+    text-align: center;
+  }
+  .abtInfo{
+    text-align: justify;
+  }
+  .aboutContaint a
+  {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+  }
+  .skills{
+    background-color: white;
+    
+   
+  }
+  .skillsContaint li {
+    color: white;
+  }
+  .skillsContaint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 100px;
+  }
+  .card{
+    margin-bottom: 15px;
+    
+  }
+
+  
+}
